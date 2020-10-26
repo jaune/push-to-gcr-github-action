@@ -7,7 +7,7 @@ This action can be used to perform on every git `push` or every `tag` creation.
 ## Inputs
 
 ### `gcloud_service_key`
-The service account key of google cloud. The service accout json file must be encoded in base64. This field is required.
+The service account key of google cloud. This field is required.
 
 ### `registry`
 The registry where the image should be pushed. Default `gcr.io`.
